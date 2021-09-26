@@ -62,17 +62,17 @@ Adipisci vero autem eos sunt pariatur, perspiciatis ab, illum excepturi sequi at
 <img src="../Img/salta.jpg" alt="Foto de montaña" title="Montañas"> 
 </p>
 
-<table>
+<table border="1">
     <caption> Productos de la tienda xyz</caption>
     <THead>
-        <TR>
+        <TR style="text-align: center;">
             <TH>Producto</TH>
             <TH>Descuento</TH>
             <TH>Monto</TH>
         </TR>
     </THead>
 
-    <tfoot>
+    <tfoot style="text-align: center;">
         <tr>
             <th>Total</th>
             <th>30</th>
@@ -81,17 +81,17 @@ Adipisci vero autem eos sunt pariatur, perspiciatis ab, illum excepturi sequi at
     </tfoot>
 
     <tbody>
-        <tr>
+        <tr style="text-align: center;">
             <td>Kolynos</td>
             <td>10</td>
             <td>50</td>
         </tr>
-        <tr>
+        <tr style="text-align: center;">
             <td>Papel Higenico</td>
             <td>5</td>
             <td>50</td>
         </tr>
-        <tr>
+        <tr style="text-align: center;">
             <td>Champu</td>
             <td>15</td>
             <td>80</td>
@@ -99,64 +99,94 @@ Adipisci vero autem eos sunt pariatur, perspiciatis ab, illum excepturi sequi at
     </tbody>
 </table>
 <hr>
-
-<table>
+<H1 style="color: blue;"><em>Entel S.A</em></H1>
+<table border="1">
     <Caption>Factura detallada</Caption>
     <tHead>
         <TR>
-            <th></th>
-           <th> Entel S.A MARZO 2019</th> 
+           <th colspan="5"> Entel S.A MARZO 2019</th> 
         </TR>
-        <tr>
-            <th></th>
-            <th>Detalle de cuotas</th>
-        </tr>
-        <tr>
-            <th>Periodo</th>
-            <th>Concepto</th>   
-            <th>Importe</th>
-            <th>Descuento</th>
-        </tr>
     </tHead>
     <tFoot>
         <TR>
-            <th>Total</Th>
-                <th></th>
-                <th></th>
-            <th>$360.00</th>
+            <td colspan="5" style="font-size: 13px;"><em>Entel le informa que puede llamar al numero gratuito 081-808080
+            para cualquier duda o sugerencia que tenga acerca de esta factura o de nuestro servicios
+            </em></td>
         </TR>
     </tFoot>
 
     <tbody>
         <tr>
-            <td></td>
+            <th colspan="5">Detalle de cuotas</th>
+            
+        </tr>
+        <tr>
+            <th>Periodo</th>
+            <th>Concepto</th>
+            <th>Importe</th>
+            <th colspan="2">Descuento</th>
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align: center;">01/03/19 - 01/04/19</td>
             <td>Servicio de identificacion de llamadas</td>
-            <td>$120</td>
-            <td>0</td>
-        </tr>
+            <td style="text-align: center;">S/ 120.00</td>
+            <td colspan="2" style="text-align: center;">0</td>
+        </tr>  
         <tr>
-            <td>01/03/19 - 01/04/19</td>
             <td>Linea individual</td>
-            <td>$140</td>
-            <td>0</td>
+            <td style="text-align: center;">S/ 140</td>
+            <td colspan="2" style="text-align: center;">0</td>
+        </tr>      
+        <tr>
+            <td>Bono cuidad</td>
+            <td style="text-align: center;">S/ 100.00</td>
+            <td colspan="2" style="text-align: center;">0</td>
         </tr>
         <tr>
-            <td></td>
-            <td>Bono ciudad</td>
-            <td>$100</td>
-            <td>0</td>
+            <tfoot>
+                <td colspan="2">Total</td>
+                <td colspan="3" style="text-align: right;">S/ 165.00</td>
+            </tfoot>
         </tr>
 
-        
+        <tr>
+            <th colspan="5" style="text-align: center;">
+                Detalle de consumo
+            </th>
+        </tr>
+
+        <tr>
+            <th>Concepto</th>
+            <th>Llamadas</th>
+            <th>Duracion</th>
+            <th>Importe</th>
+            <th>Descuento</th>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Llamada internacional</td>
+            <td style="text-align: center;">23</td>
+            <td style="text-align: center;">10m 23s</td>
+            <td style="text-align: center;">S/130.00</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <td rowspan="1" style="text-align: center;">Llamada metropolitana</td>
+            <td style="text-align: center;">23</td>
+            <td style="text-align: center;">10m 23s</td>
+            <td style="text-align: center;">S/ 35.00</td>
+            <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+            <tfoot>
+                <th colspan="2">
+                    Total
+                </th>
+                <th colspan="3" style="text-align: right;">
+                    S/ 165.00
+                </th>
+            </tfoot>
+        </tr>
     </tbody>
-    
-
 </table>
-
-
-
-
-
-
 </body>
 </html>
