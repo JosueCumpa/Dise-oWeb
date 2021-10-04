@@ -1,0 +1,21 @@
+#Titulopag{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color:black;
+}
+
+body{
+  background-image: linear-gradient(to top, #000000  0%,#ffffff 100%);
+}
+
+dl{
+    background-color: gray;
+    text-align: right;
+    
+}
+a[href="#perfil"],[href="#experiencia"],[href="#habilidades"],[href="#educacion"]{
+    color: white;
+   
+}
+
