@@ -2,20 +2,82 @@
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-    color:black;
+    color:yellow;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
-body{
-  background-image: linear-gradient(to top, #000000  0%,#ffffff 100%);
+
+.Header{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(56, 56, 255);
+    height: 320px;
+}
+p{
+    margin: 0px;
+    text-align: justify;
+    padding: 20px;
 }
 
 dl{
-    background-color: gray;
+    background-color: rgb(103, 70, 252);
     text-align: right;
-    
-}
-a[href="#perfil"],[href="#experiencia"],[href="#habilidades"],[href="#educacion"]{
-    color: white;
-   
+
 }
 
+a[href="#perfil"],[href="#experiencia"],[href="#habilidades"],[href="#educacion"]{
+    color: white;
+    margin: 10px;
+}
+
+img{
+   border-radius: 50%;
+   height: 150px;
+   margin-left: 100px;
+   background: rgba(110, 78, 255, 0.25);
+   box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.37);
+   backdrop-filter: blur( 10px );
+   -webkit-backdrop-filter: blur( 10px );
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1{
+    color:yellow;
+    font-family: Arial  ;
+}
+
+.Cuerpo{
+    background-image: linear-gradient(to top, #ced3f8 15%, rgb(103, 103, 255) 100%);
+}
+
+h2{
+    color: yellow;
+    background-color:  rgb(62, 19, 255);
+    font-family: 'Times New Roman';
+}
+
+th{
+    color: rgb(58, 0, 192);
+}
+td{
+    font-family: Tahoma;
+}
+
+strong{
+    color: blue;
+}
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+#PiePagina{
+    text-align: center;
+    font-size: 10px;
+}
