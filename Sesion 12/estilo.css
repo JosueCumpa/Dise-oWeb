@@ -1,0 +1,69 @@
+.boby{
+    padding: 0px;
+    height: 800px;
+    margin: 5%;
+    float: right;
+}
+
+
+body{
+    padding: 0px;
+    height: 950px;
+    border: 2px solid black;
+}
+ #Imagen img{
+     width: 100%;
+ }
+
+#Header{
+    padding: 0px;
+    text-align: center; 
+}
+#Imagen{
+    padding: 0px;
+    margin: 5%;
+    float: left;
+    height: 800px;
+    width: 400px;
+}
+
+input{
+    border-radius: 5px;  
+}
+
+#nombre, #apellido, #dni, #edad, #sexo {
+    width: 90%;
+}
+
+#Contenedor , #MejorPelicula, #PeliculaSinver, #Argumento {
+    width: 90%;
+   background-color: cornflowerblue;
+   color: white;
+}
+
+#BtnBorrar{
+    background-color: blue;
+    color: white;
+    width: 150px; 
+    margin-left: 30%;
+    transform: translateX(0%);
+}
+#btnEnviar{
+    padding: 0px;
+    color: white;
+    width: 150px;
+    background-color: blue;
+}
+
+#argumento{
+    padding: 0px;
+    width: 100%;
+}
+
+#Datos_Personales, #Mejor_Pelicula, #Pelicula_sinver, #Grupo_argumento{
+    border: 1px solid red;
+}
+legend{
+    background-color: blue;
+}
+

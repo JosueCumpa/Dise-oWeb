@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Encuesta Cinematografica</title>
+</head>
+<body>
+   <div id="Imagen">
+    <img  id="img" src="../Img/Award.png" alt="imagen del Oscar" >
+   </div>
+
+
+   <div class="boby">
+   <div id="Header">
+    <h2 style="text-align: center;">
+        <img src="../Img/net.png" alt="img netflix" title="Montañas" height="30" width="150" >
+        Encuesta de cine: Nominadas al Oscar 2021
+        <img src="../Img/net.png" alt="img netflix" title="Montañas" height="30" width="150">
+    </h2>
+   </div>
+    
+   
+    <div id="Contenedor">
+         
+         <form id="Formulario1" name="Formulario1" method="POST" action="">
+          <fieldset id="Datos_Personales">
+              <legend>Datos Personales</legend>
+              <label for="Nombre">Nombre</label><br> 
+              <input type="text" name="nombre" id="nombre"><br>
+              <label for="Apellido">Apellido</label><br>
+              <input type="text" name="apellido" id="apellido"><br>
+              <label for="DNI">DNI</label><br>
+              <input type="text" name="DNI" id="dni"><br>
+              <label for="Edad">Edad</label><br>
+              <input type="text" name="edad" id="edad"><br>
+              <label for="Sexo">Sexo</label><br>
+              <Select name="Sexo[]" id="sexo">
+                <option value="Sexo[]">....</option>
+                <option value="Sexo[]">Femenino</option>
+                <option value="Sexo[]">Masculino</option>
+              </Select>
+          </fieldset>
+         </form>
+    </div>
+    <div id="MejorPelicula">
+          <form action="Formulario2" name="Formulario2" method="POST">
+              <fIeldset id="Mejor_Pelicula">
+                <legend>Mejor Pelicula</legend>
+                <input type="radio" name="Pelicula" value="11"> call Me By Your Name <br>
+                <input type="radio" name="Pelicula" value="22"> Dunkerque <br>
+                <input type="radio" name="Pelicula" value="33"> Dejame salir <br>
+              </fIeldset>
+          </form>
+    </div>
+
+    <div id="PeliculaSinver">
+        <FORm action="Formulario3" name="Formulario3" method="POST">
+             <fieldset id="Pelicula_sinver">
+                <legend> Seleccionar las peliculas que no hayas visto</legend>
+                <input type="checkbox" name="Pelicula1" > Pelicula 1 <br>
+                <input type="checkbox" name="pelicula2" > pelicula 2 <br>
+                <input type="checkbox" name="pelicula3" > pelicula 3 <br>
+                <input type="checkbox" name="pelicula4" > pelicula 4 <br>
+                <input type="checkbox" name="pelicula5" > pelicula 5 <br>
+             </fieldset>
+        </FORm>
+
+    </div>
+    <div id="Argumento">
+        <form action="Fromulario4" name="Formulario4" method="POST">
+            <fieldset id="Grupo_argumento">
+            <legend>Argumento de tu pelicula preferida</legend>
+            <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+          </fieldset>
+          <br>
+          <input type="reset" value="Borrar Formulario" id="BtnBorrar">
+          <input type="submit" value="Enviar" id="btnEnviar">
+        </form>
+        
+    </div>
+
+</div>
+</body>
+</html>
