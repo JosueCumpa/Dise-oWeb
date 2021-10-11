@@ -1,0 +1,36 @@
+h1{
+    font-family: Arial;
+    text-align: center; 
+    font-size: 50px;
+    color: darkorange;
+}
+
+p{
+    text-align: center; 
+    font-size: 20px;
+}
+
+img{
+    padding-left: 28%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+ul{
+    padding-left: 20%;
+}
+
+h2 {
+    font-family: Arial;
+    text-align: center;
+    color: orange;
+}
+ol{
+    padding-left: 20%; 
+    padding-right: 20%; 
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
+    color: darkorange;
+}

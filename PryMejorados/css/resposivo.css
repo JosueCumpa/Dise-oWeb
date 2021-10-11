@@ -1,0 +1,48 @@
+.grid{
+    min-height: 100vh;
+    margin-top: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns:  100%;
+    grid-template-rows: 200px;
+    grid-template-areas: "head" "menu" "contenido" "otros" "foot";
+}
+
+header{
+    grid-area: head;
+    background-color: blue;
+}
+
+nav{
+    grid-area: menu;
+    background-color: red;
+}
+section{
+    grid-area: contenido;
+    background-color: yellow;
+}
+aside{
+    grid-area: otros;
+    background-color: orange;
+}
+footer{
+    grid-area: foot;
+    background-color: yellowgreen;
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 200px 50px 1fr 100px;
+        grid-template-areas: "head head" "menu menu" "contenido otros" "foot foot";
+    }
+}
+
+@media (min-width: 1001px){
+    .grid{
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 200px 200px 1fr 20%;
+        grid-template-areas: "head head head" "menu contenido otros" "foot foot foot";
+    }
+}

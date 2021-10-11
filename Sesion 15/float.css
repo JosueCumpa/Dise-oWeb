@@ -1,0 +1,26 @@
+header{
+    background-color: blue;
+    height: 150px;
+}
+nav{
+    background-color: red;
+    width: 25%;
+}
+section{
+    background-color: yellow;
+    width: 50%;
+}
+aside{
+    background-color: orange;
+    width: 25%;
+}
+footer{
+background-color: greenyellow;
+height: 100PX;
+clear: left;
+}
+
+nav,aside,section{
+    float: left;
+    height: 150PX;
+}

@@ -1,0 +1,15 @@
+/* .grid{
+    display: grid;
+    grid-template-columns: 70px 300px;
+    grid-template-rows: 200px 75px;
+} */
+
+.A , .B,.C,.D{
+    border: 1px solid black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 60fr 60fr;
+    grid-template-rows: 60fr 100fr;
+}

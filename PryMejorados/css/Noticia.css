@@ -1,0 +1,53 @@
+
+#Caja1{
+    margin:0%;
+    height: 1040px;
+    background-color: rgb(0, 174, 255);
+    }
+#head{
+    font-family: Verdana;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    background-color: blue;
+}
+h1,h2{
+    margin-left: 5%;
+}
+
+p{
+        font-family:Verdana;    
+}
+
+#Caja2{
+        margin-right: 5% ;
+        width: 400px;
+        height: 250px;
+        float: right;
+}
+    
+    #caja3{
+        background-color: rgba(92, 174, 230, 0.863);
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 0%;
+        clear:left;
+    
+        
+    }
+    
+    #Caja4{
+        border: 2px solid rgb(6, 183, 253);
+         background-color: rgb(62, 216, 255);
+        width: 200px;
+        float: right;
+        margin-right: 5%;
+    }
+
+    #caja5{
+        width: 500px;
+        height: 500px;
+        margin-left: 30%;
+        margin-top: 2%;
+        border-radius: 5%;
+        border: 5px solid rgba(25, 209, 255, 0.726);
+    }
