@@ -1,0 +1,56 @@
+main{
+    border: 2px solid black;
+    margin-left: 25%;
+    height: 320px;
+    width: 45%;
+    background-color:turquoise;
+}
+
+h1{
+    font-family:Verdana;
+    color: blue;
+}
+
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+
+#Nombre{
+    margin-left: 25%;
+    clear: left;
+    clear: right;
+}
+#Apellidos{
+    float:right;
+    margin-right: 24%;
+}
+#correo, #Contraseña{
+    float: left;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding-right: 26.5%;
+    margin-right: 50%;
+}
+#Check{
+    margin-left: 0%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+}
+
+footer{
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 1.5%;
+}
+#Enviar{
+   padding-left: 5%;
+   padding-right:5%;
+   text-align: center;
+}
+#Enviar , #Fb, #Go {
+   background-color: blue ;
+   color: white;
+}
