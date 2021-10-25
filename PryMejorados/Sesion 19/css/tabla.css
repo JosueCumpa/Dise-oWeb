@@ -1,0 +1,27 @@
+#contenedorTabla td{
+    border: 1px solid blue;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: turquoise;
+}
+
+#contenedorTabla{
+    margin-top: 2%;
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    background-color: cyan;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+input{
+    background-color: cyan;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+}
+
