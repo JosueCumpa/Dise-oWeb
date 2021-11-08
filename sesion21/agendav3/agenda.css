@@ -1,0 +1,47 @@
+#contenedor{
+    width: 560px;
+    margin-top: auto;
+    background-color: white;
+    padding-left: 10px;
+    font-family: calibri;
+}
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+
+}
+.nom{
+    background-color: darkgrey;
+    width: 132px;
+}
+
+.nomemail{
+    background-color: darkgrey;
+    width: 280px;
+}
+.titu{
+    background-color: greenyellow;
+    width: 132px;
+    text-align: center;
+}
+li{
+    list-style:none;
+    margin-top: 1px;
+}
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.titue{
+    background-color: greenyellow;
+    width: 280px;
+    text-align: center;
+}
+
+#aviso{
+    background-color: aqua;
+    width: 560px;
+}

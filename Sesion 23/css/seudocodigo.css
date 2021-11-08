@@ -1,0 +1,39 @@
+/*pseudoelementos--- apariencia*/
+
+p ::first-letter{
+    font-size: 2rem;
+}
+
+.seudoele{
+    border: 2 px solid black;
+    width: 10%;
+    text-align: center;
+}
+
+.seudoele::before{
+    content: 'hola';
+    background-color: red;
+}
+
+
+.seudoele::after{
+    content: 'peru';
+    background-color: red;
+}
+
+/*pseudoClases  --- comportamiento*/
+div:hover{
+    background-color: aqua;
+}
+
+a:hover{
+    color: red;
+}
+
+a:focus{
+  color: greenyellow;
+}
+
+a:active{
+  color:  hotpink;
+}
